@@ -1,6 +1,7 @@
 import projectimg from './images/projectimg.png'
 import projectimg2 from './images/projectimg2.png'
 import projectimg3 from './images/projectimg3.png'
+import slots from './images/slots.png'
 
 const Projects = () => {
     return(
@@ -38,17 +39,17 @@ const Projects = () => {
             </div>
             
             
-            {/* This is a saveholder for a future project
+           
             <div className ="Project-4">
-                <img className = "Image-project4" src = {projectimg2} alt ='project thumbnail4' />
+                <img className = "Image-project4" src = {slots} alt ='project thumbnail4' />
                 <div className = "text-container4">
-                    <h2> Project 4</h2> 
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is crisp in view. </p>
+                    <h2>Slots Web Game</h2> 
+                    <p>I made a virtual casino Slots game using JavaScript. You can check out the <a href=" https://slots-game.vercel.app/" target ="blank"> live version </a> if not move over to it’s <a href=" https://github.com/NotChristopher/slots-game" target ="blank">Repo</a></p>
                     
                     
                 </div>
             </div>
-            */}
+            
             
 
         </div>
