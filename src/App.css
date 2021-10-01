@@ -10,7 +10,7 @@
   left: 321px;
   right: 0%;
   top: 0px;
-  background: #f6f6f6;
+  background: rgba(247, 191, 35, 0.247);
   mix-blend-mode: normal;
 }
 
@@ -395,7 +395,7 @@
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 380px) {
   .Hero-img{
     right: 0px;
     left: 800px;
@@ -625,6 +625,60 @@
     color: #6D6D6D;
   }
 
+
+  .Project-4{
+    position: relative;
+    width: 100%;
+    height: 590px;
+    left: auto;
+    top: 2180px;
+  
+  } 
+  
+  
+  .Image-project4{
+    position: absolute;
+    width: 862px;
+    height: 790px;
+    left: 691px;
+    top: auto;
+  
+    mix-blend-mode: normal;
+  }
+  
+  .text-container4 h2{
+    position: absolute;
+    width: 350px;
+    height: 90px;
+    left: 204px;
+    top: auto;
+    
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: -0.257143px;
+    color: #999999;
+  
+  }
+  
+  .text-container4 p{
+    position: absolute;
+    width: 402px;
+    height: 132px;
+    left: 206px;
+    margin-top: 26rem;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.385714px;
+    color: #6D6D6D;
+  }
   
 
   .About{
@@ -632,7 +686,7 @@
     width: 1202px;
     height: 1323px;
     left: 5px;
-    top: 4100px;
+    top: 5000px;
   
   }
   
@@ -949,13 +1003,63 @@
     color: #6D6D6D;
   }
 
+  .Project-4{
+    position: relative;
+    width: 100%;
+    height: 590px;
+    left: auto;
+    top: 2180px;
+  
+  } 
+  
+  
+  .Image-project4{
+    position: absolute;
+    width: 662px;
+    height: 590px;
+    left: 691px;
+    top: auto;
+  
+    mix-blend-mode: normal;
+  }
+  
+  .text-container4 h2{
+    
+    left: 100px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: -0.257143px;
+    
+  
+  }
+  
+  .text-container4 p{
+    position: absolute;
+    width: 402px;
+    height: 132px;
+    left: 100px;
+    margin-top: 26rem;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.385714px;
+    color: #6D6D6D;
+  }
+
 
   .About{
     position: absolute;
     width: 1202px;
     height: 1323px;
     left: 5px;
-    top: 4100px;
+    top: 5000px;
   
   }
   
