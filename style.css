@@ -376,57 +376,55 @@ a{
 @media all and (max-width:800px){
    
     html{
-        overflow-x: hidden;
+      
         max-width: 100vw;
     }
 
-    .header-container{
-        
-        position: absolute;
-        top: 0;
-        left: 0;
-        height:fit-content;
-        width:100vw;
-        background-color: var(--main-color);
-    }
+   
     h2{
-        font-size: 100%;
+        font-size: 18px;
     }
 
     .header-txt{
-        margin-left: 35%;
+        
         line-height: 1em;
     }
 
     #header-button{
       justify-self: center;
-      margin-left: 40%;
+      margin-left: 25%;
     }
 
-    .icon-container{
-        margin-left: 38%;
-        margin-top: 5%;
-    }
+   
 
     nav{
-        margin-left: 22%;
-       font-size: 30px;
+        margin-left: 10%;
+       font-size: 15px;
     }
 
     .content-container{
         max-width: 99%;
         padding: 1em;
+        margin-top: -4%;
+        
     }
 
+    .content-container h2{
+       font-size: 28px;
+    }
     .project-image{
         max-width: 90%;
-        margin-left: 5em;
+        margin-left: 1em;
+    }
+
+    .project-subtext{
+        max-width: 89%;
+        margin-left: 1em;
     }
 
     #git{
-        margin-left: 10em;
+        margin-left: 5em;
     }
-
 
     .display-container{
         
@@ -439,29 +437,20 @@ a{
     }
 
    p{
-       font-size: 2em;
+       font-size: 1em;
    }
-    .Project-icons img{
-        width: 5em;
-        
-        
-    }
-    .project-subtext{
-        max-width: 90%;
-    }
+  
+
     .Project-icons{
         
-        margin-top: -20%;
-        margin-left: 20%;
+        margin-top: -30%;
+        margin-left: 15%;
         
         
     }
 
     .about-container{
         padding: 1em;
-    }
-    .about-container p{
-        font-size: 18px;
     }
     
 }
@@ -491,7 +480,7 @@ a{
 
     nav{
         margin-left: 10%;
-       font-size: 18px;
+       font-size: 15px;
     }
 
     .content-container{
@@ -582,7 +571,7 @@ a{
 
     nav{
         margin-left: 10%;
-       font-size: 18px;
+       font-size: 14px;
     }
 
     .content-container{
@@ -607,15 +596,15 @@ a{
    p{
        font-size: 1em;
    }
-    .project-icons img{
+    .Project-icons img{
        
-        margin-right: 35%;
+        width: 2em;
     }
 
     .Project-icons{
         
         margin-top: -30%;
-        margin-left: 12%;
+        margin-left: 20%;
         
         
     }
@@ -624,3 +613,84 @@ a{
         padding: 1em;
     }
 }
+
+
+@media all and (max-width:300px){
+    html{
+      
+        max-width: 100vw;
+    }
+
+    .header-container{
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        height:fit-content;
+        width:100vw;
+        background-color: var(--main-color);
+    }
+    h2{
+        font-size: 50%;
+    }
+
+    .header-txt{
+        
+        line-height: 1em;
+    }
+
+    #header-button{
+      justify-self: center;
+      margin-left: 25%;
+    }
+
+    .icon-container{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    nav{
+        margin-left: 10%;
+       font-size: 14px;
+    }
+
+    .content-container{
+        max-width: 99%;
+        padding: 1em;
+    }
+    .project-image{
+        max-width: 90%;
+        margin-left: 2em;
+    }
+
+    .display-container{
+        
+        display: inline-block;
+        
+    }
+    .project-headline{
+        font-size: 4em;
+        text-align: center;
+    }
+
+   p{
+       font-size: 1em;
+   }
+    .Project-icons img{
+       
+        width: 2em;
+    }
+
+    .Project-icons{
+        
+        margin-top: -30%;
+        margin-left: 20%;
+        
+        
+    }
+
+    .about-container{
+        padding: 1em;
+    }
+}
+
