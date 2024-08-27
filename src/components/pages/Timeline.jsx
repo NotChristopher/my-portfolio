@@ -196,7 +196,7 @@ const Timeline = () => {
                                 <EntryCard.Title>Code Sample</EntryCard.Title>
                                 <EntryCard.Text>Here is a lovely example of a styleguide page for form inputs across an app</EntryCard.Text>
                                 
-                                <a>Got to Github</a>  <a href="/inputs">Go to Example</a>
+                                <a href="https://github.com/NotChristopher/my-portfolio/blob/main/src/components/pages/InputFields.jsx">Got to Github</a>  <a href="/inputs">Go to Example</a>
                             </EntryCard.Body>
                         </EntryCard>
                     </LeftEntrance>
