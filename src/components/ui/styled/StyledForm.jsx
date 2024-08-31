@@ -198,8 +198,8 @@ const keyDown = (event) =>{
             console.log(list);
             setDisable(false);
             setInputValue('');
-        }else if (inputValue.match(!validRegex) && ['Enter',' ', 'Tab' ,','].includes(event.key)){
-            alert('invalid Email');
+        }else {
+            
         }
         
     
